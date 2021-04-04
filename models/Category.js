@@ -15,11 +15,11 @@ Category.init(
     },
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     category_id: {
       type: DataTypes.INTEGER,
-      modelName: 'category',
+      modelName: 'category'
     }
   },
   {
